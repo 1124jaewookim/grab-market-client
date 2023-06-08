@@ -72,6 +72,11 @@ function ProductPage() {
         <div id="creadtedAt">
           {dayjs(product.createdAt).format("YYYY년 MM월 DD일")}
         </div>
+        <div id="product-site">
+          <a href={product.siteUrl} target="_blank">
+            해당 사이트로 이동!
+          </a>
+        </div>
         <Button
           id="purchase-button"
           size="large"
