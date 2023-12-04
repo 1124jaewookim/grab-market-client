@@ -64,7 +64,7 @@ function ProductPage() {
       </div>
       <div id="profile-box">
         <img src="/images/icons/avatar.png" />
-        <span>{product.seller}</span>
+        <span>김재우</span>
       </div>
       <div id="contents-box">
         <div id="name">{product.name}</div>
