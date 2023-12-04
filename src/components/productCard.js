@@ -22,7 +22,7 @@ function ProductCard(props) {
           <div className="product-footer">
             <div className="product-seller">
               <img className="product-avatar" src="/images/icons/avatar.png" />
-              <span>{product.seller}</span>
+              <span>김재우</span>
             </div>
             <span className="product-date">
               {dayjs(product.createdAt).fromNow()}
